@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Kalculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-b from-purple-300 to-blue-500 relative overflow-hidden">
+    <div class="wave"></div>
+    <div class="flex justify-center items-center h-screen">
+        <div class="calculator bg-white rounded-lg shadow-lg relative z-10">
+            <input type="text" id="result" class="result p-2 text-right font-semibold text-lg rounded-t-md" disabled>
+            <div class="grid grid-cols-4 gap-1">
+                <button class="btn btn-gray" onclick="clearAll()"><i class="fas fa-backspace"></i></button>
+                <button class="btn btn-gray" onclick="clearLast()"><i class="fas fa-times"></i></button>
+                <button class="btn btn-gray" onclick="appendToResult('/')"><i class="fas fa-divide"></i></button>
+                <button class="btn btn-yellow" onclick="appendToResult('*')"><i class="fas fa-times"></i></button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('7')">7</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('8')">8</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('9')">9</button>
+                <button class="btn btn-gray" onclick="appendToResult('-')"><i class="fas fa-minus"></i></button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('4')">4</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('5')">5</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('6')">6</button>
+                <button class="btn btn-gray" onclick="appendToResult('+')"><i class="fas fa-plus"></i></button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('1')">1</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('2')">2</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('3')">3</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('(')">(</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('0')">0</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult(')')">)</button>
+                <button class="btn bg-purple-400 text-white hover:bg-purple-500" onclick="appendToResult('.')">.</button>
+                <button class="btn btn-yellow bg-yellow-400 text-white hover:bg-yellow-500" onclick="calculate()"><i class="fas fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
