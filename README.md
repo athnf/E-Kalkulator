@@ -1,7 +1,5 @@
 # Kalkulator Sederhana dengan HTML, CSS, dan JavaScript
 
-![Calculator](calculator.png)
-
 Ini adalah program kalkulator sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript. Program ini memungkinkan pengguna untuk melakukan operasi perhitungan dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 ## Fitur
@@ -27,6 +25,9 @@ Ini adalah program kalkulator sederhana yang dibuat menggunakan HTML, CSS, dan J
 4. Gunakan tombol "Clear" atau "Clear All" jika perlu untuk menghapus input atau hasil perhitungan.
 
 ## Author
-Program ini dibuat oleh Athaillah Nazhif Firdaus menggunakan HTML, CSS, dan JavaScript, dengan menggunakan framework Tailwind CSS untuk desainnya.
+Program ini dibuat oleh Nazhif menggunakan HTML, CSS, dan JavaScript, dengan menggunakan framework Tailwind CSS untuk desainnya.
 
-Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi [Nama Author] di [email@example.com].
+Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi Nazhif di [azhif.firdaus25@gmail.com].
+
+## Kalkulator Online
+Anda dapat mencoba kalkulator online ini di [https://e-kalkulator.vercel.app].
